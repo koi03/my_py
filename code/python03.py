@@ -44,6 +44,13 @@ while True:
     print ('a')
     num =num + 1
     if num == 10 :
+        break
+    print(num)
+num = 0
+while num <10 :
+    print ('a')
+    num = num +1
+    if num==4:
         continue
     print(num)
 
